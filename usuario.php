@@ -101,7 +101,7 @@ echo "<table border=1 cellpadding=4 cellspacing=0>";
          <th colspan=5> Consultas </th>
        <tr>
          <th> IDc </th><th>fecha  </th><th>&Aacute;rea  </th>
-         <th> Especialidad</th><th> Descripcion</th>
+         <th> Especialidad</th><th> Respuesta</th>
       </tr>";
 
 
@@ -112,7 +112,7 @@ while($row=mysql_fetch_array($result))
          <td> $row[fecha] </td>
          <td> $row[Area] </td>
          <td> $row[especialidad] </td>
-         <td> $row[Descripcion] </td>
+         <td> $row[Respuesta] </td>
       </tr>";
 }
 echo "</table>";
